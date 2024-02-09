@@ -1,0 +1,110 @@
+@media (max-width:990px) {
+    .hero p {
+        width: 100%;
+        padding: 14px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .hero { 
+        position: unset;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+    .w-s {
+        flex-direction: column-reverse;
+    }
+
+    .col-6 {
+        width: 100%;
+        padding: 16px;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .features h2, .spread h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .container-hero {
+        margin-top: 5rem;
+    }
+
+    .section-banner {
+        margin: auto;
+        height: 250px !important;
+        width: 250px !important;
+    }
+
+    .services p, .newspaper p, .market p, .workflow p, .contact p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .services .col {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .earth {
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .input-group {
+        width: 100%;
+        margin: auto;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .contact .row{
+        flex-direction: column;
+    }
+
+    .social-container {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+    .bank {
+        width: 300px;
+        height: 300px;
+    }
+
+    .market .row {
+        flex-direction: column;
+    }
+
+    .blog .card {
+        width: fit-content !important;
+    }
+
+    .newspaper h2, .blog h2 {
+        font-size: 2rem;
+    }
+    .accordion-button {
+        font-size: 1.1rem;
+    }
+
+    .navbar-toggler-icon {
+        color: var(--prime);
+    }
+}
